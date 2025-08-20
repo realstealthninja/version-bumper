@@ -1,0 +1,20 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions":  {
+        "pretty": true,
+        "strictNullChecks": true,
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": ["ES2022"],
+        "strict": true,
+        "newLine": "lf",
+        "outDir": "./built",
+        "allowJs": false,
+        "module": "NodeNext",
+        "target": "ES2022",
+        "moduleResolution": "NodeNext",
+        "sourceMap": true
+    }, 
+    "include": ["./src/**/**/*"]
+
+}
