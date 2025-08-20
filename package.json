@@ -1,0 +1,23 @@
+{
+  "name": "version-bumper",
+  "version": "1.0.0",
+  "description": "A fully featured semver version bumper for all your projects",
+  "keywords": [
+    "semver",
+    "versioning",
+    "version",
+    "bumper"
+  ],
+  "license": "MIT",
+  "author": "stealthninja",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "semver": "^7.7.2",
+    "smol-toml": "^1.4.2"
+  }
+}
