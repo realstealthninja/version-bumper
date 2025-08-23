@@ -1,14 +1,12 @@
-import { SemVer } from "semver"
+import { SemVer } from "semver";
 
 export enum FileType {
-    JSON,
-    TOML,
+  JSON,
+  TOML,
 }
 
 export interface Version {
-    fileType: FileType;
-    key: string;
-    version: SemVer | null;
+  fileType: FileType;
+  key: string;
+  version: SemVer | null;
 }
-
-
